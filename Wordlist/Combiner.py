@@ -1,7 +1,7 @@
 # Read wordlists
-filename1=open("1.txt","r")
+filename1=open("Words.txt","r")
 Netgear1=filename1.read().splitlines()
-filename2=open("2.txt","r")
+filename2=open("Numbers.txt","r")
 Netgear2=filename2.read().splitlines()
 #Create the mix wordlist
 Netgear3=open("Dictionary.txt","a")
